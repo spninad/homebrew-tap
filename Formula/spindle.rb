@@ -7,19 +7,19 @@ class Spindle < Formula
   on_macos do
     on_arm do
       url "https://github.com/spninad/spindle/releases/download/v#{version}/spindle-#{version}-macos-arm64.tar.gz"
-      sha256 "PLACEHOLDER_SHA256_MACOS_ARM64"
+      sha256 "1cce5fcba07a05f41dd27303dca4bd43aa7671d8a13b42e47d4a4b4f2c604efd"
     end
 
     on_intel do
       url "https://github.com/spninad/spindle/releases/download/v#{version}/spindle-#{version}-macos-x86_64.tar.gz"
-      sha256 "PLACEHOLDER_SHA256_MACOS_X86_64"
+      sha256 "7a51c756b0507d916d37219bf3b1b146893b9a95206c265183e526ae24501ac2"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/spninad/spindle/releases/download/v#{version}/spindle-#{version}-linux-x86_64.tar.gz"
-      sha256 "PLACEHOLDER_SHA256_LINUX_X86_64"
+      sha256 "01ba2aa1ec2614271e814c1b9e56725b34df5ce1e0dafddd374c9eba81ce7196"
     end
   end
 
