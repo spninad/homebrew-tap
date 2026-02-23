@@ -17,6 +17,11 @@ class Spindle < Formula
   end
 
   on_linux do
+    on_arm do
+      url "https://github.com/spninad/spindle/releases/download/v#{version}/spindle-#{version}-linux-arm64.tar.gz"
+      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+    end
+
     on_intel do
       url "https://github.com/spninad/spindle/releases/download/v#{version}/spindle-#{version}-linux-x86_64.tar.gz"
       sha256 "0000000000000000000000000000000000000000000000000000000000000000"
